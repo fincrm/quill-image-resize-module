@@ -1,12 +1,12 @@
 {
-  "name": "quill-image-resize-module",
-  "version": "3.0.0",
+  "name": "@fincrm/quill-image-resize-module",
+  "version": "3.0.1",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "quill-image-resize-module",
-      "version": "3.0.0",
+      "name": "@fincrm/quill-image-resize-module",
+      "version": "3.0.1",
       "license": "MIT",
       "dependencies": {
         "lodash": "^4.17.4",
@@ -26,6 +26,9 @@
         "eslint-plugin-jsx-a11y": "^4.0.0",
         "eslint-plugin-react": "^6.10.3",
         "webpack": "^2.3.3"
+      },
+      "peerDependencies": {
+        "parchment": "^2.0.0"
       }
     },
     "node_modules/acorn": {
@@ -4865,13 +4868,10 @@
       "dev": true
     },
     "node_modules/parchment": {
-      "version": "1.0.8",
-      "resolved": "https://registry.npmjs.org/parchment/-/parchment-1.0.8.tgz",
-      "integrity": "sha512-c3FkAaXbf3d2CxupJOx492jzhxz4oM7niTVZz1Quf6TyzhZ+J6YQQ7JWWVo3m6pd3IpbHxfYGz8OiPhFm8mrbA==",
-      "engines": {
-        "node": ">= 5.3",
-        "npm": ">= 3.5"
-      }
+      "version": "2.0.1",
+      "resolved": "https://registry.npmjs.org/parchment/-/parchment-2.0.1.tgz",
+      "integrity": "sha512-VBKrlEoZCBD+iwoeag0QTtY1Cti+Ma4nLpVYcc/uus/wHhMsPOi5InH3RL1s4aekahPZpabcS2ToKyGf7RMH/g==",
+      "peer": true
     },
     "node_modules/parse-asn1": {
       "version": "5.1.0",
@@ -5157,6 +5157,15 @@
       },
       "engines": {
         "node": ">=0.10"
+      }
+    },
+    "node_modules/quill/node_modules/parchment": {
+      "version": "1.0.8",
+      "resolved": "https://registry.npmjs.org/parchment/-/parchment-1.0.8.tgz",
+      "integrity": "sha512-c3FkAaXbf3d2CxupJOx492jzhxz4oM7niTVZz1Quf6TyzhZ+J6YQQ7JWWVo3m6pd3IpbHxfYGz8OiPhFm8mrbA==",
+      "engines": {
+        "node": ">= 5.3",
+        "npm": ">= 3.5"
       }
     },
     "node_modules/randomatic": {
